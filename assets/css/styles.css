@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+li{
+    list-style: none;
+}
+
+a{
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+}
+
+svg{
+    width: 1.8rem;
+}
+
+body{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-size: 1.6rem;
+    height: 100vh;
+}
+
+.header__menu{
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header__menu ul{
+    display: flex;
+    align-items: center;
+}
+
+.header__menu ul li{
+    margin-right: 1.5rem;
+}
+
+main{
+    margin: 25rem 0;
+}
+
+main figure img{
+    width: 30rem;
+    height: 10rem;
+}
+
+.maincontent{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+form{
+    border: 0.1rem solid gray;
+    width: 60rem;
+    height: 5rem;
+    border-radius: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5rem 0 3rem 0;
+    padding: 0 1.5rem;
+}
+
+form:hover{
+    border: 0.1rem solid gray;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: 0.5s;
+}
+
+
+form input{
+    width: 50rem;
+    height: 4rem;
+    margin: 0 1.5rem;
+    outline: none;
+    border: none;
+}
+
+.magnifyingGlass--icon{
+    opacity: 0.5;
+}
+
+.button__input{
+    width: 15rem;
+    height: 4rem;
+}
+
+.button__input--blue{
+    width: 12rem;
+    color: white;
+    background-color: blue;
+}
+
+footer{
+    width: 100%;
+    min-height: 5rem;
+    background-color: #a6a1a1;
+    position: absolute;
+    bottom: 0;
+}
+
+.footer__menuContent{
+    display: flex;
+    justify-content: space-between;
+    height: 5rem;
+    align-items: center;
+}
+
+.footer__menuContent ul{
+    display: flex;
+}
+
+.footer__menuContent ul li{
+    margin: 0 2rem ;
+}
